@@ -13,11 +13,11 @@ This is the [custom version](https://breakdev.org/evilginx-3-3-go-phish/) of GoP
 
 ### Install
 
-Installation of Gophish is dead-simple - just download and extract the zip containing the [release for your system](https://github.com/kgretzky/gophish/releases/), and run the binary. Gophish has binary releases for Windows, Mac, and Linux platforms.
+Installation of Gophish is dead-simple - just download and extract the zip containing the [release for your system](https://github.com/Dazmed707/gophish/releases/), and run the binary. Gophish has binary releases for Windows, Mac, and Linux platforms.
 
 ### Building From Source
-**If you are building from source, please note that Gophish requires Go v1.10 or above!**
-
+**If you are building from source, please note that Gophish requires Go v1.23 or above!**
+Install gcc compiler with "apt install gcc"
 To build Gophish from source, simply run ```git clone https://github.com/gophish/gophish.git``` and ```cd``` into the project source directory. Then, run ```go build```. After this, you should have a binary called ```gophish``` in the current directory.
 
 ### Docker
